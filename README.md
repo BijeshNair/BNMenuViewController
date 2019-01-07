@@ -19,7 +19,8 @@ pod 'BNMenuViewController'
 
 ## Implementation
 
-```let modalController = BNMenuViewController()
+```
+let modalController = BNMenuViewController()
 modalController.modalPresentationStyle = .overCurrentContext
 modalController.delegate = self
 modalController.arrayList = ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6"]
