@@ -1,0 +1,6 @@
+framework module BNMenuViewController {
+  umbrella header "BNMenuViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

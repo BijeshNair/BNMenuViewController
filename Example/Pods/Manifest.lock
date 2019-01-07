@@ -1,0 +1,16 @@
+PODS:
+  - BNMenuViewController (0.1.0)
+
+DEPENDENCIES:
+  - BNMenuViewController (from `../`)
+
+EXTERNAL SOURCES:
+  BNMenuViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BNMenuViewController: 80750a3c3ae6b0708b0a8952044c5b5fe587191c
+
+PODFILE CHECKSUM: 769be4146ce79508c99c6b2a5e2bfa60a0b31e62
+
+COCOAPODS: 1.4.0
