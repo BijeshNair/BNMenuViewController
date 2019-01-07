@@ -9,14 +9,15 @@
     "file": "LICENSE"
   },
   "authors": {
-    "BijeshNair": "bijesh4@gmail.com"
+    "Bijesh Nair": "bijesh4@gmail.com"
   },
   "source": {
     "git": "https://github.com/BijeshNair/BNMenuViewController.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
+  "swift_version": "4.2",
   "source_files": "BNMenuViewController/Classes/**/*"
 }

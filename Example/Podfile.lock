@@ -6,11 +6,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   BNMenuViewController:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  BNMenuViewController: 80750a3c3ae6b0708b0a8952044c5b5fe587191c
+  BNMenuViewController: d57c10f92fc4db32f8ec4b833c5c7fd6fa311b45
 
 PODFILE CHECKSUM: 769be4146ce79508c99c6b2a5e2bfa60a0b31e62
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
