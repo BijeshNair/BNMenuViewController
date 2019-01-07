@@ -9,7 +9,7 @@
 import UIKit
 
 public protocol BNMenuDelegate: class  {
-    func clickedAtIndex(i:Int)
+    func menuSelectedAtIndex(i:Int)
 }
 
 open class BNMenuViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
@@ -180,7 +180,7 @@ open class BNMenuViewController: UIViewController, UITableViewDataSource, UITabl
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         buttonCloseClicked(self)
-        delegate?.clickedAtIndex(i: indexPath.row)
+        delegate?.menuSelectedAtIndex(i: indexPath.row)
     }
     
     //MARK: - UIScrollViewDelegate

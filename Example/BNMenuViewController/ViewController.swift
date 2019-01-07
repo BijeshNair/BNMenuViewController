@@ -30,7 +30,7 @@ class ViewController: UIViewController, BNMenuDelegate {
     }
     
     // MARK: - BNMenuDelegate
-    func clickedAtIndex(i: Int) {
+    func menuSelectedAtIndex(i: Int) {
         print(i)
     }
     
