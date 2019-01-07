@@ -12,7 +12,7 @@ public protocol BNMenuDelegate: class  {
     func clickedAtIndex(i:Int)
 }
 
-open class BNMenuViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate {
+open class BNMenuViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     open weak var delegate:BNMenuDelegate?
     open var arrayList:[String] = []

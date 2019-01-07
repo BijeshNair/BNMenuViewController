@@ -24,7 +24,7 @@ class ViewController: UIViewController, BNMenuDelegate {
         modalController.arrayList = ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6"]
         modalController.arrayIcons = ["1", "2", "3", "4", "5", "6"]
         modalController.iconSize = CGSize(width: 45, height: 45)
-        modalController.itemTextColor = .purple
+        modalController.itemTextColor = .white
         modalController.itemTextFont = UIFont(name: "Baskerville-SemiBoldItalic", size: 20)!
         present(modalController, animated: false, completion: nil)
     }
