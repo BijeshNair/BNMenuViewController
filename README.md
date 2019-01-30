@@ -8,10 +8,6 @@
 ![Alt text](https://media.giphy.com/media/iXOolHJoZTXZ9KXTGx/giphy.gif?raw=true)
 
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Installation
 
 BNMenuViewController is available through [CocoaPods](https://cocoapods.org). To install
@@ -35,6 +31,10 @@ modalController.itemTextFont = UIFont(name: "Baskerville-SemiBoldItalic", size: 
 present(modalController, animated: false, completion: nil)
 ```
 Make sure you set ```modalPresentationStyle``` as ```overCurrentContext```
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Author
 
